@@ -1,0 +1,135 @@
+  form {
+      height: 100px;
+      border: 1px solid #dadada;
+      border-radius: 7px;
+      background: #fafafa;
+      background: linear-gradient(to bottom, white, #dadada);
+      background: -webkit-linear-gradient(to bottom, white, #dadada);
+      background: -o-linear-gradient(to bottom, white, #dadada);
+      background: -moz-linear-gradient(to bottom, white, #dadada);
+  }
+  
+  h3 {
+      text-align: center;
+      font-weight: bold;
+  }
+  
+  table {
+      width: 100%;
+      margin-bottom: 20px;
+      border-collapse: collapse;
+  }
+  
+  table tr {
+      height: 20px !important
+  }
+  
+  table,
+  th,
+  td {
+      border: 1px solid #cdcdcd;
+  }
+  
+  table th,
+  table td {
+      padding: 10px;
+      text-align: left;
+  }
+  
+  form>div {
+      display: inline-block;
+      width: 30%;
+      margin-top: 20px;
+      margin: 5px;
+  }
+  
+  #selectType {
+      border-radius: 5px;
+      width: 150px;
+      height: 25px;
+      margin-top: 5px
+  }
+  
+  div input[type="text"] {
+      width: 148px;
+      border-radius: 5px;
+      border: 0px;
+      border: 1px solid gray;
+      height: 21px;
+  }
+  
+  .add-row {
+      background: black;
+      color: white;
+      width: 50px;
+      border: 0px;
+      border-radius: 5px;
+      height: 25px;
+      margin-left: 20px;
+  }
+  
+  #search {
+      padding: 0px;
+      text-align: right;
+      width: 97%;
+      border-top: 1px solid #dadada;
+      margin-top: 10px;
+      margin: 0 auto;
+  }
+  
+  #search input {
+      height: 15px;
+      background-image: url(../imgs/search.jpg);
+      background-position: 141px 3px;
+      background-repeat: no-repeat;
+      border: 0px;
+      border: 1px solid gray;
+      border-radius: 5px;
+      background-size: 12px;
+      margin-top: 10px;
+  }
+  
+  .display {
+      background: yellow;
+  }
+  
+  .none {
+      background: white;
+  }
+  
+  .divContainer {
+      border: 1px solid blue;
+      display: none;
+      height: 150px;
+      overflow-y: scroll;
+  }
+  
+  .JsonP {
+      margin-right: 40px;
+      text-align: right;
+  }
+  
+  #convert-table {
+      background: black;
+      color: white;
+      width: 50px;
+      border: 0px;
+      border-radius: 5px;
+      height: 25px;
+  }
+  
+  #divTable {
+      height: 200px;
+      overflow-y: scroll;
+      margin-top: 10px;
+  }
+  
+  #jsondiv-container {
+      height: 100px;
+      overflow-y: scroll;
+  }
+  
+  form>div:first-child div,
+  select {
+      margin-left: 10px !important;
+  }
